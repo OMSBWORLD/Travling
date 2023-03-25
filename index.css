@@ -6,8 +6,14 @@
 }
 .Ubody{
     width: 100%;
-    background-image: url(Rectangle\ 15.png);
-    background-repeat: no-repeat;
+    min-height: 100vh;
+    background: linear-gradient(
+        to top,
+        white 0%,
+        white 40%,
+        #e2f6fc 40%,
+        #e2f6fc 100%
+    );
 }
 .Nav{
     display: flex;
@@ -63,7 +69,7 @@ a:hover{
     width: 50%;
 }
 .two{
-    margin-top: 300px;
+    margin-top: 0px;
     padding-left: 150px;
     min-height: 70vh;
 }
@@ -71,10 +77,10 @@ a:hover{
     padding-left: 100px;
     display: flex;
     justify-content: space-between;
-    margin-top: 300px;
-    margin-bottom: 300px;
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
-.Both{
+.both{
     background-image: url(Ellipse\ 22.png);
     background-repeat: no-repeat;
 }
@@ -93,6 +99,28 @@ a:hover{
         padding-top: 30px;
         width: 100%;
     }
+    .Nav-link{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+    }
+    .Nav h3{
+        color:#42A7C3 ;
+        margin-left: 20px;
+    }
+    .Nav button{
+        margin-right: 0px;
+        background-color:#FA8443 ;
+        color: white;
+        border: none;
+        width: 80px;
+        height: 20px;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
+    .second img{
+        width: 400px;
+    }
     .one{
         display: flex;
         flex-direction: column;
@@ -100,12 +128,28 @@ a:hover{
         width: 90%;
         min-height: 80vh;
     }
+    .first{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .two{
+        margin-top: 20px;
+        padding-left: 50px;
+        min-height: 70vh;
+    }
     .three{
-        padding-left: 100px;
+        padding-left: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: 300px;
-        margin-bottom: 300px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .both img{
+        width: 400px;
+    }
+    .last img{
+        width: 500px;
     }
 }
